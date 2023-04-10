@@ -8,13 +8,11 @@ body{
     display: flex;
     top: 0;
     left: 0;
-    /* justify-content: space-between; */
    position: fixed;
 }
 
 .logo-section{
     color: #f0f0f0;
-    justify-content: flex-end;
     min-width: 137px;
     margin-left: 150px;
     padding: 5px;
@@ -187,8 +185,10 @@ body{
     padding: 5px;
     color: #fff;
     display: flex;
+    justify-content: flex-end;
     
 }
+
 
 .categories{
     width: 100%;
@@ -318,6 +318,7 @@ body{
   }
   .deal-img img:hover{
     transform: scale(1.1);
+    
   }
   .deal-desc{
     font-size: 15px;
